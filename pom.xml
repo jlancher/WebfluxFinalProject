@@ -21,6 +21,34 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>bancolombia-maven</id>
+      <name>maven-bancolombia</name>
+      <url>https://artifactory.apps.bancolombia.com/maven-bancolombia/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>bancolombia-maven</id>
+      <name>maven-bancolombia</name>
+      <url>https://artifactory.apps.bancolombia.com/maven-bancolombia/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
   <dependencies>
     <!-- Reactividad HTTP / Reactor (NO WebClient intencionalmente) -->
     <dependency>

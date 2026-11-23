@@ -1,5 +1,5 @@
-#NOTA: LA EVIDENCIA DE LA EJECUCION DE LAS PETICIONES Y GRAFANA SE ENCUENTRA EN EL ARCHIVO Proyecto Final.docx
-
+**#NOTA: LA EVIDENCIA DE LA EJECUCION DE LAS PETICIONES Y GRAFANA SE ENCUENTRA EN EL ARCHIVO Proyecto Final.docx
+**
 # Customer Service — Starter del proyecto final (sin solución)
 
 **Contiene un proyecto Java de un módulo, dependencias Maven, infraestructura de Keycloak/Prometheus/Grafana, y una clase `SecurityConfig` inicial. No contiene implementación de CRUD ni conversión de roles.**
